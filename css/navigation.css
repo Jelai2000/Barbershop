@@ -1,0 +1,307 @@
+
+.main .navigation {
+    display: grid;
+    grid-template-columns: 455px 1fr 270px;
+    grid-template-rows: 1fr;
+    height: auto;
+    background-color: #000000;
+    
+}
+
+
+.main .navigation .account .select{
+    
+    margin-left: 90px;
+    background: unset;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 100px;
+    color: #58cced;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #000000;
+    margin-top: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.main .navigation .account .select option{
+    
+    cursor: pointer;
+    border: none;
+    color: #58cced;
+    
+}
+
+
+.main .navigation .logo{
+    display: grid;
+    grid-template-columns: 120px 0 1fr ;
+    grid-template-rows: 1fr;
+    color: #3895d3;
+    font-size: 15px;
+}
+
+.main .navigation .logo h2{
+    margin-top: 25px;
+    margin-left: 15px;
+    cursor:default;
+}
+
+
+.main .navigation .logo a img{
+
+    margin-left: 60px;
+    height: 80px;
+    width: 80px;
+}
+
+.main .navigation .logo .logos a img{
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    transition: opacity 1s;
+    
+    
+    
+}
+   
+
+.main .navigation .logo .logos a img:hover{
+    opacity: 0%;
+   
+}
+
+.main .navigation .logo .shade-logo a img{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.main .navigation .menu {
+    padding: 0;
+    text-align: center;
+
+}
+.main .navigation .menu li{
+    float: left;
+    margin-top: 15px;
+}
+
+.main .navigation .menu li a{
+    
+    color: #ffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+
+
+.main .navigation .menu li a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #3895d3;
+    transform: scale(0, 1);
+    transition: transform 200ms ease-in;
+    transform-origin: left;
+    
+
+    
+}
+  
+  .main .navigation .menu li a:hover::after {
+    transform: scale(1);
+  }
+
+
+
+
+
+  
+  .main .navigation .menu img{
+      margin-top: 45px;
+      
+  }
+
+
+
+
+
+
+.main .navigation .account a button{
+    border: none;
+    height: 50px;
+    width: 100px;
+    color: #58cced;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #000000;
+    margin-top: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.main .navigation .account a button:hover{
+    cursor: pointer;
+    background-color: #072f5f;
+    border-radius: 50px;
+
+
+
+}
+
+
+
+
+@media (max-width: 1440px) {
+    
+/* 
+    .main .navigation{
+        
+        grid-template-columns: 495px 1fr 270px;
+    
+    } */
+
+
+}
+
+
+
+
+
+
+
+
+/* Desktop/Lpatop */
+@media (max-width: 1200px) {
+    
+
+
+
+}
+
+
+/* Laptop */
+/* @media (max-width: 1024px) {
+    .main .navigation .menu li {
+        margin-top: 10px;
+
+    }
+    .main .navigation .menu {
+        
+        font-size: 14px;
+    }
+    .main .navigation{
+        
+        grid-template-columns: 305px 1fr 270px;
+    
+    }
+
+    .main .navigation .account a:nth-child(1) button {
+        margin-left: 40px;
+
+    }
+    .main .navigation .account a button {
+        font-size: 13px;
+        margin-top: 16px;
+        height: 40px;
+        width: 80px;
+    }
+
+    .main .navigation .logo a img {
+        margin-left: 60px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .main .navigation .logo h2 {
+        margin-top: 23px;
+        margin-left: 7px;
+        cursor: default;
+        font-size: 20px;
+    }
+
+
+} */
+
+
+
+
+/* Tablet */
+@media (max-width: 992px) {
+  
+    .main .navigation {
+        
+        
+        z-index: 5; 
+        grid-template-columns: auto 1fr auto;
+        width: 100%;
+
+        
+    }
+    .main .navigation .menu {
+        margin-left: 85px;
+        font-size: 14px;
+        margin-top: 6px;
+        
+    }
+    
+    .main .navigation .menu li a{
+        padding: 10px;
+
+    }
+    .main .navigation .account a button {
+        font-size: 13px;
+        height: 40px;
+        width: 90px;
+        margin-top: 22px;
+    }
+    .main .navigation .account a:nth-child(2) button {
+
+        margin-right: 50px;
+    }
+    
+
+
+
+
+}
+
+
+
+
+
+
+/* Large Mobile */
+@media (max-width: 768px) {
+ 
+    
+
+}
+
+/* Mobile  */
+@media (max-width: 576px) {
+  
+    
+
+}

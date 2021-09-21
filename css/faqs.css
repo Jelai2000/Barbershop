@@ -1,0 +1,316 @@
+@import url(./footer.css);
+
+hr{
+ border: none;
+ height: 5px;
+ background-color: #000;
+ margin: 0 50px;
+}
+
+
+label,p ,h3 ,h2, span{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body {
+ scroll-behavior: smooth;
+ margin: 0;
+ padding: 0;
+
+}
+a{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+ul{
+ list-style: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 600;
+ margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	color: none	;
+	text-decoration: none;
+}
+
+
+
+
+.main {
+ background-color: #fff;
+
+
+
+}
+
+.main .header{
+  display: grid;
+  margin: 0;
+  height: 300px;
+  width: 100%;
+  /* background-color: #3895d3; */
+  text-align: center;
+  font-family: Apple Chancery, cursive;	
+  grid-template-rows: 1fr 1fr;
+  /* border-bottom: 4px solid #000; */
+ 
+ }
+
+
+.main .header h1{
+
+ margin: 0;
+
+ margin-top: 100px;
+ font-size: 50px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .context {
+	display: grid;
+
+ background-color: #fff;
+	height: auto;
+	
+}
+
+
+
+
+.main .context .center{
+	margin: 0 140px;
+	display: grid;
+	grid-template-columns: repeat(1, 250px 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .context .center .definition{
+	
+	position: static;
+	height: auto;
+	width: auto;
+
+}
+
+.main .context .center .menu .list{
+	position: sticky;
+	top: 0%;
+	margin: 0;
+	width: 225px;
+	background-color:  #81b8dd;
+	height: 300px;
+	display: grid;
+	grid-template-rows: repeat(6,1fr);
+	
+}
+
+.main .context .center .menu .list .basic{
+	color: #000;
+
+
+}
+
+.main .context .center .menu .list li{
+	
+	font-size: large;
+	margin-left: 20px;
+	margin-top: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+
+
+.main .context .center .menu .list .basic:hover{
+	
+	background-color: #072f5f;
+ color: #fff;
+}
+
+
+
+
+
+
+
+
+.main .context .center .definition .basic-section .list{
+	padding: 20px 0;
+	background-color: rgb(216, 216, 216);
+	margin-bottom: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+.main .context .center .definition .basic-section .list:hover{
+	box-shadow:10px 10px  grey;
+
+}
+
+.main .context .center .definition .basic-section .list span{
+	cursor: pointer;
+	color: #072f5f;
+	padding-left: 20px;
+	font-weight: 600;
+}
+/* .main .context .center .definition .basic-section .list:nth-child(3) span{
+	padding: 23px 627px 23px 0;
+} */
+.main .context .center .definition .basic-section .list span{
+	user-select: none;
+	font-size: x-large;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+
+
+
+.main .context .center .definition .basic-section .basics{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+
+
+
+.main .context .center .definition .basic-section .list .define{	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	cursor: default;
+	margin: 15px 20px 10px 20px	;
+ font-weight: 400;
+}
+
+
+
+
+
+
+.main .footer .links{
+	margin-top: 13px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (max-width: 992px) {
+
+	
+	.main .header h1 {
+		font-size: 40px;
+	}
+	.main .context .center .definition .basic-section .list span {
+		font-size: 14px;
+	}
+	.main .context .center .definition .basic-section .basics,
+	.main .context .center .menu .list li  {
+		font-size: 16px;
+	}
+	.main .context .center .definition .basic-section .list .define {
+		font-size: 12px;
+	}
+	
+
+
+
+
+	
+
+
+}
+
+/* Large Mobile */
+@media (max-width: 768px) {
+
+	
+
+}
+
+/* Mobile  */
+@media (max-width: 576px) {
+
+	
+
+}
+
+
+
+
+

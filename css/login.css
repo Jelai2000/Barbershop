@@ -1,0 +1,240 @@
+html, body {
+ scroll-behavior: smooth;
+ margin: 0;
+ padding: 0;
+
+}
+label,p ,h3 ,h2 ,span{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #fff;
+}
+
+hr{
+ height: 2px;
+ background-color: #000;
+ border: none;
+ margin: 8px 100px;
+}
+a{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: #3895d3;
+}
+ul{
+ list-style: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: 600;
+ margin: 0;
+}
+
+
+.main {
+ position: relative;
+ height: 100vh;
+ 
+ display: grid;  
+ grid-template-columns: auto 1fr 1fr;
+ background-size: cover;
+ background-position: bottom;
+ background-repeat: no-repeat;
+ background-image: url(../gallery/dan-gold-07AAmZ1dECU-unsplash.jpg);
+}
+
+.login{
+   
+    height: 100%;
+    text-align: center;
+    display: grid;
+    background-color: #000;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 100px 100px 1fr;
+}
+
+
+
+
+
+
+
+
+input{
+ outline: 0;
+ height: 35px;
+ width: 400px;
+ margin-top: 20px;
+ font-size: large;
+ border: none;
+ background:transparent;
+ border-bottom: 2px solid #3895d3;
+   color: #fff;
+
+}
+
+
+input::placeholder{
+   color: #3895d3;
+
+
+}
+
+.main .login h2{
+   margin-top: 130px;
+}
+
+
+.login .form{
+
+   margin-top: 100px;
+}
+
+.login .form .sections input{
+ height: 14px;
+ width: 15px;
+ margin: 20px 0 0 0;
+
+}
+
+
+.login .form .sections{
+ user-select: none;
+
+}
+
+
+.login .form .buttons input{
+ background-color: #3895d3;
+ width: 50%;
+ border-radius: 20px;
+ border: none;
+ cursor: pointer;
+ 
+
+
+}
+
+.login .form .buttons input:hover{
+ background-color: #072f5f;
+ color: #fff;
+}
+
+
+.login .form .social-media {
+ display: grid;
+ grid-template-columns: repeat(3,50px);
+ grid-template-rows: 1fr;
+ margin-left: 265px;
+ margin-bottom: 30px;
+}
+
+
+.login .form .social-media img{
+   width: 37px;
+   height: 37px;
+
+
+}
+
+.login .form .social-media img:hover{
+ cursor: pointer;
+ opacity: 0.5;
+}
+
+
+
+
+
+
+.main .background{
+   width: 100%;
+   height: 100%;
+
+
+}
+
+
+.main a img{
+   height: 50px;
+   opacity: .7;
+   position: absolute;
+   margin: 30px 0 0 50px;
+}
+
+.main a img:hover{
+   cursor: pointer;
+   opacity: 1;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (max-width: 992px) {
+
+   input {
+      outline: 0;
+      height: 35px;
+      width: 330px;
+      margin-top: 20px;
+      font-size: medium;
+      border: none;
+      background: transparent;
+      border-bottom: 2px solid #3895d3;
+      color: #fff;
+  }
+  .login .form .buttons input {
+     font-size: 14px;
+  }
+  p,span{
+     font-size: 15px;
+
+  }
+   .main .login h2 {
+      margin-top: 160px;
+   }
+   .login .form .section:nth-child(1) {
+      margin-top: 20px;
+
+
+   }
+   .login .form .social-media {
+      margin-left:175px;
+   }
+   
+}
+
+/* Large Mobile */
+@media (max-width: 768px) {
+ 
+    
+
+}
+
+/* Mobile  */
+@media (max-width: 576px) {
+  
+    
+
+}
+
+

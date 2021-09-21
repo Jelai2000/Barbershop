@@ -1,0 +1,283 @@
+label,p ,h3 ,h2, span{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+}
+hr{
+    height: 2px;
+ background-color: #000;
+ border: none;
+ margin: 8px 80px;
+}
+a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3895d3;
+}
+ul{
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.main {
+    
+    position: relative;
+    height: 100vh;
+    
+    display: grid;  
+    grid-template-columns: auto 1fr 1fr;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../gallery/dan-gold-07AAmZ1dECU-unsplash.jpg);
+    
+    
+}
+
+.main .login-signup{
+    
+    
+    text-align: center;
+    
+    display: grid;
+    /* background: linear-gradient(to top, #3895d3,antiquewhite); */
+    background-color: #000;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 50px 50px 1fr;
+    width: 100%;
+    
+  
+
+}
+
+
+.main .image{
+    height: 100%;
+    width: 100%;
+    
+
+
+}
+
+input:-webkit-autofill {
+    background-color: red;
+    color: red;
+  }
+
+input:autofill {
+    background-color: red;
+  }
+
+
+  
+.main .login-signup h2{
+    margin: 0;
+    margin-top: 90px;
+}
+
+.main .login-signup p{
+    margin: 0 20px;
+    font-size: medium;
+}
+
+
+
+input{
+    border: none;
+     
+    outline: 0;
+    height: 40px;
+    width: 400px;
+    outline: none;
+    font-size: large;
+    margin-top: 5px;
+    background:transparent;
+    border-bottom: 2px solid #3895d3;
+    color: #fff;
+   
+
+}
+
+
+input::placeholder{
+    color: #3895d3;
+
+
+}
+
+
+
+.main .login-signup .form{
+    display: grid;
+    
+    margin-top: 90px;
+}
+
+.main .login-signup .section input{
+    margin-top: 20px;
+
+
+}
+.main .login-signup .sections a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+.main .login-signup .form .sections input{
+    height: 15px;
+    width: 20px;
+    margin: 7px 0 0 0;
+}
+
+.main .login-signup .sections {
+    
+    user-select: none;
+}
+
+
+.main .login-signup .sections{
+    margin-top: 10px;
+
+}
+
+.main .login-signup .buttons{
+
+    margin-top: 10px;
+}
+
+.main .login-signup .buttons input{
+    
+ background-color: #3895d3;
+ width: 50%;
+ border-radius: 20px;
+ border: none;
+ cursor: pointer;
+}
+
+.main .login-signup .buttons input:hover{
+    background-color: #072f5f;
+    color: #fff;
+}
+.main .login-signup .buttons p{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+.main a img{
+    height: 50px;
+    opacity: .7;
+    position: absolute;
+    margin: 30px 0 0 50px;
+ }
+ 
+ .main a img:hover{
+    cursor: pointer;
+    opacity: 1;
+   
+ }
+ 
+
+
+span{
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    input {
+       outline: 0;
+       height: 35px;
+       width: 330px;
+       margin-top: 20px;
+       font-size: medium;
+       border: none;
+       background: transparent;
+       border-bottom: 2px solid #3895d3;
+       color: #fff;
+   }
+
+
+   .main .login-signup .buttons input {
+      font-size: 14px;
+   }
+   
+   .main .login-signup p,
+   .main .login-signup span {
+      font-size: 15px;
+        margin: auto 40px;
+   }
+   
+   .main .login-signup h2 {
+       margin-top: 120px;
+   }   
+
+   .main .login-signup .section:nth-child(1) {
+       margin-top: 30px;
+ 
+ 
+    }
+
+
+ }
+ 
+ /* Large Mobile */
+ @media (max-width: 768px) {
+  
+     
+ 
+ }
+ 
+ /* Mobile  */
+ @media (max-width: 576px) {
+   
+     
+ 
+ }
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
